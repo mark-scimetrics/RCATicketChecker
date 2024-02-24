@@ -1,6 +1,6 @@
 order_number,name,number_of_tickets,zone
 UNSOLD_NAVE,UNSOLD,11,N
-UNSOLD_AISLE,UNSOLD,105,A
+UNSOLD_AISLE,UNSOLD,104,A
 UNSOLD_TRANSEPT,UNSOLD,179,T
 "Adams, Rachel 679","Adams, Rachel",2,N
 "Adisa, Paula 602","Adisa, Paula",1,N
@@ -116,7 +116,7 @@ Cross. Fiona 696,Cross. Fiona,2,N
 "Moulton, Mairi (F) 581","Moulton, Mairi (F)",1,N
 "Mount, Margaret 634","Mount, Margaret",2,N
 "Mountford, Duncan -R 552","Mountford, Duncan -R",2,N
-"Nathan, Steve 733","Nathan, Steve",1,A
+"Nathan, Steve 733","Nathan, Steve",2,A
 "Nelson, Anne-Marie 651","Nelson, Anne-Marie",2,N
 "Nicoli, Anna 614","Nicoli, Anna",1,N
 "Nutt, Jonathan 678","Nutt, Jonathan",1,N
