@@ -60,6 +60,7 @@ def upload_file():
       for row in reader:
         order_number2 = k  #int(row['order_number'])
         k = k + 1
+        #print(row)
         TICKETS[order_number2] = {
             'order_number': row['order_number'],
             'name': row['name'],
@@ -95,8 +96,11 @@ def check_tickets():
 
 
     order_value = request.form.get('order_number')
-    order_number = order_numbers.index(order_value)
-    print("check tick - order_num2", order_number)
+    if order_value != '':
+      order_number = order_numbers.index(order_value)
+      print("check tick - order_num2", order_number)
+    else:
+      order_number = -1
 
     
 
