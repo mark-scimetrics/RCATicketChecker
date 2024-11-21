@@ -61,6 +61,24 @@
                 {% endfor %}
             </tbody>
         </table>
+        <!-- New section for Source Summary -->
+        <h2 class="mb-4">Source Summary</h2>
+        <table class="table table-striped">
+            <thead class="thead-light">
+                <tr>
+                    <th scope="col">Source</th>
+                    <th scope="col">Count</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for source, count in contacts_summary.items() %}
+                    <tr>
+                        <td>{{ source }}</td>
+                        <td>{{ count }}</td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
     </div>
 
     <!-- Bootstrap JS, Popper.js, and jQuery for interaction -->
