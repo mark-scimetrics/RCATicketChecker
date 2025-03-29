@@ -15,7 +15,7 @@ from flask import (
 )
 
 # Pre-defined users and passwords
-USERS = {'user': 'BrahmsOp45', 'admin': 'adminBrahmsOp45'}
+USERS = {'user': 'Creation', 'admin': 'adminCreation'}
 
 # Store ticket data in memory for simplicity
 # In a real application, consider using a database
